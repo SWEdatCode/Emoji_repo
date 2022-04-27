@@ -18,7 +18,7 @@ function updateRating(index){
         }
     });
     emojisEl.forEach(emojiEl=>{
-        emojiEl.style.transform = `translateX(-${index * 50}px)`;
+        emojiEl.style.transform = `translateX(-${index * 52.5}px)`;
     emojiEl.style.color = colorsArray[index]
     });
 }
