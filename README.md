@@ -1,2 +1,2 @@
 # Emoji_repo
- A simple Emojis Rating Widget using Html, CSS and JS :)
+ A simple Emoji Rating Widget using Html, CSS and JS :)
