@@ -28,7 +28,7 @@ body{
     overflow: hidden;
 }
 .fa-3x{
-    margin: 1px;
+    margin: 2px;
     transform: translateX(0);
     transition: transform 0.2s;
 }
