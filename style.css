@@ -28,7 +28,7 @@ body{
 }
 .fa-3x{
     margin: 1px;
-    transform: translateX(-50px);
+    transform: translateX(0px);
     transition: transform 0.2s;
 }
 .rating-container{
