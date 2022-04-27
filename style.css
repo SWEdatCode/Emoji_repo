@@ -12,7 +12,7 @@ body{
     height: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.74);
     border-radius: 10px;
-    position: relative;
+    position: absolute;
 }
 .emoji-container{
     position: absolute;
@@ -28,17 +28,18 @@ body{
 }
 .fa-3x{
     margin: 1px;
-    transform: translateX(0px);
+    transform: translateX(0);
     transition: transform 0.2s;
 }
 .rating-container{
     position: absolute;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     bottom: 20%;
 }
 .fa-star{
-    color: rgb(230, 173, 201);
+    color: lightgray;
     cursor: pointer;
 }
 .fa-star.active{
